@@ -236,7 +236,53 @@ body {
 
 /* Akhir pelanggan */
 
+/* alasan memilih kami */
+.alasan {
+  text-align: center;
+}
 
+.alasan h3 {
+  font-size: 3rem;
+  font-weight: 400;
+  margin: 0.5rem;
+}
+
+.alasan h3 span {
+  color: white;
+  text-shadow: 0 0 3px black;
+}
+
+.alasan p {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+.alasan .container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  padding: 3rem 4%;
+  gap: 1rem;
+}
+
+.container .card {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.container .card h4 {
+  font-size: 1.5rem;
+  margin: 0.8rem 0 1rem;
+  font-weight: bold;
+  color: gray;
+}
+
+.container .card p {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+/* akhir alasan memilih kami */
 
 
 
