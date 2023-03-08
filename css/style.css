@@ -2,6 +2,7 @@
   --bg: #e6e6e6;
   --primery: black;
   --mono: rgb(160, 159, 159);
+  --blue: #309491;
 }
 
 body {
@@ -267,7 +268,7 @@ body {
 .container .card {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
   border-radius: 10px;
-  padding: 1rem;
+  padding: 1rem 2rem;
 }
 
 .container .card h4 {
@@ -283,6 +284,74 @@ body {
 }
 
 /* akhir alasan memilih kami */
+
+/* layanan kami */
+.layanan-kami {
+  background-color: var(--bg);
+  padding: 1.4rem 7%;
+}
+
+.layanan-kami h2 {
+  font-size: 3rem;
+  font-weight: 500;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+.layanan-kami h2 span {
+  color: white;
+}
+
+.layanan-kami .row {
+  display: flex;
+  margin-top: 3rem;
+  gap: 3rem;
+}
+
+.layanan-kami .bordir-img {
+  flex: 1 1 45rem;
+}
+
+.layanan-kami img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.layanan-kami .content-bordir {
+  flex: 1 1 35rem;
+}
+
+.layanan-kami h5 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: var(--blue);
+  font-weight: 600;
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5);
+}
+
+.layanan-kami p {
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+  margin-bottom: 2rem;
+
+}
+
+.layanan-kami a {
+  background-color: var(--blue);
+  color: black;
+  padding: 0.5rem 3rem;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+
+.layanan-kami a:hover {
+  color: white;
+  background-color: rgb(27, 113, 110);
+  transition: all 0.5s;
+}
+
+/* akhir layanan kami */
 
 
 
@@ -386,6 +455,19 @@ body {
   }
 
   /* Akhir pelanggan */
+
+  /* layaynan kami */
+  .layanan-kami .row {
+    flex-wrap: wrap;
+  }
+
+  .layanan-kami a {
+
+    display: inline-block;
+    text-align: center;
+  }
+
+  /* akhir layaynan kami */
 
 }
 
