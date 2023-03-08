@@ -296,6 +296,7 @@ body {
   font-weight: 500;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
   text-align: center;
+  margin-bottom: 6rem;
 }
 
 .layanan-kami h2 span {
@@ -310,6 +311,7 @@ body {
 
 .layanan-kami .bordir-img {
   flex: 1 1 45rem;
+  padding: 0 5rem 5rem;
 }
 
 .layanan-kami img {
@@ -350,6 +352,20 @@ body {
   background-color: rgb(27, 113, 110);
   transition: all 0.5s;
 }
+
+.layanan-kami .sablon {
+  margin-top: 6rem;
+}
+
+.layanan-kami .sablon-img {
+  flex: 1 1 30rem;
+}
+
+.layanan-kami .content-sablon {
+  flex: 1 1 45rem;
+}
+
+
 
 /* akhir layanan kami */
 
@@ -465,6 +481,10 @@ body {
 
     display: inline-block;
     text-align: center;
+  }
+
+  .layanan-kami .sablon-img {
+    order: -1;
   }
 
   /* akhir layaynan kami */
