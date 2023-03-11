@@ -8,7 +8,7 @@
 body {
   font-family: poppins, Arial, Helvetica, sans-serif;
   box-sizing: border-box;
-  min-height: 5000px;
+  min-height: 7000px;
 }
 
 /* Navbar */
@@ -376,7 +376,7 @@ body {
 }
 
 .testimoni h2 {
-  margin-top: 2rem;
+  margin: 6rem 0 3rem;
 }
 
 .testimoni p {
@@ -413,7 +413,7 @@ body {
   display: flex;
   align-items: center;
   gap: 10px;
-  margin-top: 3rem;
+  margin-top: 2rem;
 }
 
 .testimoni .container .row .profile-img {
@@ -434,9 +434,104 @@ body {
   font-weight: 500
 }
 
-
-
 /* akhir testimoni */
+/* contact */
+.contact h2 {
+  font-size: 3rem;
+  text-align: center;
+  margin: 6rem 0 3rem;
+  font-weight: 500;
+}
+
+.contact .container {
+  padding: 1.4rem 7%;
+  display: flex;
+  gap: 1rem;
+
+}
+
+.row-1 {
+  flex: 1 1 30rem;
+  text-align: center;
+}
+
+.contacts {
+  background-color: var(--blue);
+  padding: 1rem;
+  color: white;
+  margin-bottom: 2rem;
+}
+
+.contacts h6 {
+  font-size: 2.5rem;
+  margin-top: 1.5rem;
+}
+
+.our-office {
+  border: 1px solid var(--bg);
+}
+
+.our-office h1 {
+  font-size: 2.5rem;
+  font-weight: 200;
+  margin: 1rem;
+}
+
+.our-office ul {
+  text-align: start;
+}
+
+.our-office ul hr {
+  color: #309491;
+}
+
+.our-office ul h3 {
+  font-size: 1.5rem;
+}
+
+.our-office ul li {
+  font-weight: 400;
+  margin: 1.2rem;
+}
+
+.row-2 {
+  flex: 1 1 50rem;
+  padding: 2rem;
+}
+
+.row-2 h6 {
+  font-size: 3rem;
+  color: gray;
+  width: 300;
+  margin-bottom: 2rem;
+}
+
+.input-group {
+  display: flex;
+  margin: 1rem 0;
+}
+
+.form input,
+.form textarea {
+  width: 100%;
+  padding: 1rem;
+  outline: none;
+  font-size: 1.2rem;
+  background: none;
+  border: 1px solid gray;
+}
+
+.form textarea {
+  display: flex;
+  width: 100%;
+  height: 10rem;
+  font-size: 1.2rem;
+}
+
+
+
+
+/* akhir contact */
 
 
 
@@ -556,6 +651,10 @@ body {
   }
 
   /* akhir layaynan kami */
+
+  .contact .container {
+    flex-wrap: wrap;
+  }
 
 }
 
