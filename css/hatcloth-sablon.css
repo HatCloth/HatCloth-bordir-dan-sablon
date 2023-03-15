@@ -15,6 +15,10 @@ body {
     height: 4000px;
 }
 
+.container {
+    padding: 1.4rem 7%;
+}
+
 /* Navbar */
 .navbar {
     position: fixed;
@@ -22,6 +26,7 @@ body {
     left: 0;
     right: 0;
     z-index: 9999;
+    background-color: rgba(125, 125, 125, 0.8);
 }
 
 .navbar .container {
@@ -29,7 +34,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 1.2rem 7%;
-    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 1px 5px rgba(255, 255, 255, 0.5);
 }
 
 .navbar .container .nav-logo h1 {
@@ -187,6 +192,39 @@ body {
 }
 
 /* akhir header */
+
+/* product */
+.product {
+    padding: 1.4rem 7%;
+}
+
+.product .row {
+    display: flex;
+
+
+}
+
+.product .content {
+    flex: 1 1 45rem;
+
+    padding: 2rem;
+}
+
+.content h3 {
+    font-size: 2.5rem;
+    padding-top: 2rem;
+
+}
+
+.product .content-img {
+    flex: 1 1 45rem;
+}
+
+.product img {
+    width: 100%;
+}
+
+/* akhir product */
 
 
 
