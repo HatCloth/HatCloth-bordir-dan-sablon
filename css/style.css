@@ -622,6 +622,29 @@ small {
 
 /* akhir footer */
 
+/* file bordir */
+.flex-1 a{
+  font-size: 16px;
+  font-weight: bold;
+  border: 2px solid var(--mono);
+  padding: 5px 10px;
+  border-radius: 7PX;
+  background-color: #028342;
+
+}
+.tagline{
+  text-align: center;
+  font-size: 2rem;
+  
+}
+.flex-1 a:hover{
+  background-color: #dbdada;
+  color: #028342;
+  transition: all 0.5s;
+  border: 2px solid black;
+}
+/*akhir  file bordir */
+
 
 
 
